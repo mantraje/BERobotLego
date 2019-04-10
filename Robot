@@ -1,0 +1,71 @@
+import java.util.List;
+
+public abstract class Robot {
+	private int currentPos;
+	private int previousPos;
+	private int initPos;
+	private Graphe graphe;
+
+	public Robot(int init,Graphe g) {
+		this.initPos = init;
+		this.currentPos = init;
+		this.previousPos = -1;
+		this.graphe=g;
+	}
+	
+	public String construct(boolean take, boolean drop, String action) {
+		String toSent = action;
+		if (!(take || drop)) {
+			toSent += "\n";
+			return "20" + toSent;
+		}
+		if (take) {
+			toSent += "t\n";
+		}
+		if (drop) {
+			toSent += "d\n";
+		}
+		return "30" + toSent;
+	}
+
+	public String toutDroit(boolean take, boolean drop) {
+		int finalPos=graphe.toutDroit(previousPos, currentPos);
+		if (take) {
+			graphe.rammasserVictime(finalPos);
+		}
+		previousPos=currentPos;
+		currentPos=finalPos;
+		return construct(take,drop,"s");
+	}
+
+	public String demiTour(boolean take, boolean drop) {
+		int finalPos=previousPos;
+		if (take) {
+			graphe.rammasserVictime(previousPos);
+		}
+		previousPos=currentPos;
+		currentPos=finalPos;
+		return construct(take,drop,"u");
+	}
+
+	public String tournerDroite(boolean take, boolean drop) {
+		int finalPos=graphe.tournerDroite(previousPos, currentPos);
+		if (take) {
+			graphe.rammasserVictime(finalPos);
+		}
+		previousPos=currentPos;
+		currentPos=finalPos;
+		return construct(take,drop,"r");
+	}
+
+	public String tournerGauche(boolean take, boolean drop) {
+		int finalPos=graphe.tournerGauche(previousPos, currentPos);
+		if (take) {
+			graphe.rammasserVictime(finalPos);
+		}
+		previousPos=currentPos;
+		currentPos=finalPos;
+		return construct(take,drop,"l");
+	}
+
+}
