@@ -1,0 +1,25 @@
+2019-05-16T14:20:18.548056@Shruikan@4@4@ @O
+2019-05-16T14:20:19.827840@Shruikan@4@4@mouv=oui@N
+2019-05-16T14:20:19.828405@Shruikan@4@4@mouv=non@N
+2019-05-16T14:20:20.840086@Shruikan@3@4@mouv=oui@N
+2019-05-16T14:20:20.841210@Shruikan@3@4@mouv=non@N
+2019-05-16T14:20:21.580172@Shruikan@3@4@mouv=oui@S
+2019-05-16T14:20:21.580456@Shruikan@3@4@mouv=non@S
+2019-05-16T14:20:22.352751@Shruikan@4@4@mouv=oui@O
+2019-05-16T14:20:22.352964@Shruikan@4@4@mouv=non@O
+2019-05-16T14:20:22.966005@Shruikan@4@4@mouv=oui@N
+2019-05-16T14:20:22.966526@Shruikan@4@4@mouv=non@N
+2019-05-16T14:20:23.844053@Shruikan@3@4@mouv=oui@N
+2019-05-16T14:20:23.844464@Shruikan@3@4@mouv=non@N
+2019-05-16T14:20:24.424025@Shruikan@3@4@mouv=oui@S
+2019-05-16T14:20:24.424423@Shruikan@3@4@mouv=non@S
+2019-05-16T14:20:26.372040@Shruikan@4@4@mouv=oui@O
+2019-05-16T14:20:26.372425@Shruikan@4@4@mouv=non@O
+2019-05-16T14:20:27.884694@Shruikan@4@3@mouv=oui@O
+2019-05-16T14:20:27.885183@Shruikan@4@3@mouv=non@O
+2019-05-16T14:20:28.697176@Shruikan@4@2@mouv=oui@O
+2019-05-16T14:20:28.697701@Shruikan@4@2@mouv=non@O
+2019-05-16T14:20:29.486208@Shruikan@4@1@mouv=oui@N
+2019-05-16T14:20:29.486711@Shruikan@4@1@mouv=non@N
+2019-05-16T14:20:30.320667@Shruikan@3@1@mouv=oui@N
+2019-05-16T14:20:30.321099@Shruikan@3@1@mouv=non@N
